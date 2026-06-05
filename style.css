@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .navbar{
     position: fixed;
     top: 20px;
@@ -51,7 +56,7 @@
         flex-direction: column-reverse;
         text-align: center;
         gap: 30px;
-        padding-top: 140px; /* Important */
+        padding-top: 180px; /* Important */
     }
 
     .hero-content{
@@ -78,6 +83,9 @@
     .contact-card{
         width: 100%;
         max-width: 100%;
+    }
+    .about,.education,.skills,.projects,.contact{
+        padding: 60px 5%;
     }
 }
 .about{
@@ -243,6 +251,7 @@ html{
 }
 body{
     background: linear-gradient(135deg,#f8f4ff,#eef8ff);
+    overflow-x: hidden;
 }
 .btn{
     display: inline-block;
